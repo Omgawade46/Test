@@ -256,7 +256,7 @@ export const CloseIcon = () => {
     {
         description: "An authenticator website is a platform that enhances security by generating and managing time-based one-time passwords.",
         title: "Authentication App ",
-        src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+        src: WorkImg,
         ctaText: "View",
         ctaLink: "https://github.com/Omgawade46/Authentication_App",
         content: () => {
@@ -281,7 +281,7 @@ export const CloseIcon = () => {
       {
         description: "Soil detection involves analyzing and identifying the properties of soil.",
         title: "Soil detection",
-        src: "https://assets.aceternity.com/demos/led-zeppelin.jpeg",
+        src: WorkImg,
         ctaText: "View",
         ctaLink: "https://ui.aceternity.com/templates",
         content: () => {
