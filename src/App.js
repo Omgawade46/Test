@@ -39,7 +39,7 @@ function App() {
           <IconCloudDemo />
         </div>
       )} */}
-      
+        <Home />
     </div>
   );
   
