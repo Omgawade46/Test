@@ -5,9 +5,11 @@ import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log("index js");
 root.render(
 <>
     <App />
+
  </>
 );
 
