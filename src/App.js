@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div>
-      {/* {!loading ? (
+      {!loading ? (
         <>
         
           <Navbar />
@@ -38,8 +38,8 @@ function App() {
         <div className={`min-h-[100vh] ${loading ? 'flex items-center overflow-hidden justify-center' : ''}`}>
           <IconCloudDemo />
         </div>
-      )} */}
-        <Home />
+      )}
+        
     </div>
   );
   
