@@ -8,16 +8,16 @@ import Skills from "./components/Skills";
 import { useState, useEffect } from "react";
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 5000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 5000);
 
-    // Clean up the timer when the component unmounts
-    return () => clearTimeout(timer);
-  }, []);
+  //   // Clean up the timer when the component unmounts
+  //   return () => clearTimeout(timer);
+  // }, []);
   console.log("App.js");
 
   return (
