@@ -27,7 +27,7 @@ const Home = () => {
             alt="profile"
             className="w-32 h-32 sm:w-48 sm:h-48 md:w-60 md:h-60 rounded-full mt-9 md:mb-0 md:ml-8 "
           />
-          <p className="text-red-600">mandi</p>
+          
          
           {/* Text Content */}
           <div>
