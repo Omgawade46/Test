@@ -27,9 +27,7 @@ const Home = () => {
             alt="profile"
             className="w-32 h-32 sm:w-48 sm:h-48 md:w-60 md:h-60 rounded-full mt-9 md:mb-0 md:ml-8 "
           />
-          <div class="spinner">
-    <div class="spinner1"></div>
-          </div>
+         
           {/* Text Content */}
           <div>
             <p className="text-yellow-400">Hi, my name is</p>
