@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='fixed w-full h-[50px] flex justify-between items-center px-4 back text-gray-300 z-50 '>
+    <div className='fixed w-full h-[50px] flex justify-between items-center px-4 back backdrop-blur-lg text-gray-300 z-50 '>
       <div >
       <img src={Logo} alt="Logo Image" style={{ width: '80px' }} />
       </div>
@@ -94,7 +94,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className='hidden lg:flex flex fixed flex-col top-[35%] left-0'>
+      {/* <div className='hidden lg:flex flex fixed flex-col top-[35%] left-0 fixed'>
         <ul>
           <li className='w-[150px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800'>
           <a
@@ -103,7 +103,7 @@ const Navbar = () => {
     rel="noopener noreferrer"
     className="flex justify-between items-center w-full text-gray-300"
   >
-              Linked <FaLinkedin size={30} />
+              Linked <FaLinkedin size={30}   />
             </a>
           </li>
           <li className="w-[150px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
@@ -136,7 +136,7 @@ const Navbar = () => {
       </div>
 
       {/* Conditionally render the image and close button */}
-      {showImage && (
+      {/* {showImage && (
         <div style={{ position: 'fixed', top: '20px', left: '50%', transform: 'translateX(-50%)' }}>
 
           <div style={{ position: 'relative', textAlign: 'center' }}>
@@ -152,7 +152,7 @@ const Navbar = () => {
            
           </div>
         </div>
-      )}
+      )}  */}
     </div>
   );
 }
