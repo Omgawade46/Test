@@ -22,10 +22,11 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start">
           {/* Profile Image */}
+         
           <img
             src={prof}
             alt="profile"
-            className="w-32 h-32 sm:w-48 sm:h-48 md:w-60 md:h-60 rounded-full mt-9 md:mb-0 md:ml-8 "
+            className="w-32 h-32 sm:w-48 sm:h-48 mb-7 md:w-60 md:h-60 rounded-full mt-9 md:mb-0 md:ml-4 "
           />
           
          

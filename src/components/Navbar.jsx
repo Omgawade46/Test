@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
  import Logo from '../assets/OG.png';
 import resume from '../assets/resume.jpg';
 import { Link } from 'react-scroll';
+import ScrollProgress from "../components/magicui/scroll-progress";
 
 
 
@@ -12,19 +13,21 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handClick = () => setNav(!nav);
 
-  const [showImage, setShowImage] = useState(false);
+  // const [showImage, setShowImage] = useState(false);
   // const [link,setlink]=useState(true);
 
   // const clicklink = () =>{
   //   setlink("")
   // }
   // Function to toggle the image visibility
-  const toggleImage = () => {
-    setShowImage(!showImage);
-  };
+  // const toggleImage = () => {
+  //   setShowImage(!showImage);
+  // };
 
   return (
     <div className='fixed w-full h-[50px] flex justify-between items-center px-4 back backdrop-blur-lg text-gray-300 z-50 '>
+       <ScrollProgress className="top-[50px] " />
+      
       <div >
       <img src={Logo} alt="Logo Image" style={{ width: '80px' }} />
       </div>
