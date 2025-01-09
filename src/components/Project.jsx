@@ -1,6 +1,9 @@
 import React from 'react'
-import WorkImg from '../assets/projects/workImg.jpeg';
-import realEstate from '../assets/projects/realestate.jpg'
+
+import soil from '../assets/projects/soil.png'
+import auth from '../assets/projects/Auth_app.png'
+import table from '../assets/projects/Tablereservation.jpg'
+import blog from '../assets/projects/blog.png'
 import Particles from './magicui/Particles';
 import  { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -158,7 +161,7 @@ const Project = () => {
                   height={100}
                   src={card.src}
                   alt={card.title}
-                   className="h-auto w-auto max-h-40 max-w-40 md:max-h-14 md:max-w-14 rounded-lg object-cover object-center mx-auto"
+                   className="h-40 w-40 md:h-24 md:w-24  md:max-h-14 md:max-w-14 rounded-lg object-cover object-center mx-auto"
                 />
               </motion.div>
               <div>
@@ -234,22 +237,14 @@ export const CloseIcon = () => {
     {
       description: "A blog application provides insights into the content and purpose of your blog post. ",
       title: "Blog Application",
-      src: WorkImg,
+      src: blog,
       ctaText: "View",
       ctaLink: "https://github.com/Omgawade46/Blog_App",
       content: () => {
         return (
           <p>
-            Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-            her melancholic and cinematic music style. Born Elizabeth Woolridge
-            Grant in New York City, she has captivated audiences worldwide with her
-            haunting voice and introspective lyrics. <br /> <br />
-            Her songs often explore themes of tragic romance, glamour, and
-            melancholia, drawing inspiration from both contemporary and vintage pop
-            culture. With a career that has seen numerous critically acclaimed
-            albums, Lana Del Rey has established herself as a unique and influential
-            figure in the music industry, earning a dedicated fan base and numerous
-            accolades.
+            The Blog Application is a responsive web application built using React.js, designed to enable users to browse, create, edit, and delete blog posts seamlessly. It incorporates Redux for efficient state management, React Router for smooth navigation, and styled-components for a visually appealing and customizable design.  <br /> <br />
+            The application features a user-friendly interface with functionality to handle dynamic routing and CRUD operations effectively. It was developed as a self-learning project to deepen knowledge of modern web development practices.
           </p>
         );
       },
@@ -257,21 +252,13 @@ export const CloseIcon = () => {
     {
         description: "An authenticator website is a platform that enhances security by generating and managing time-based one-time passwords.",
         title: "Authentication App ",
-        src: WorkImg,
+        src: auth,
         ctaText: "View",
         ctaLink: "https://github.com/Omgawade46/Authentication_App",
         content: () => {
           return (
             <p>
-              Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-              voice and profound lyrics that resonate deeply with his audience. Born
-              in the village of Khant Maanpur in Punjab, India, he has become a
-              cultural icon in the Punjabi music industry. <br /> <br /> His songs
-              often reflect the struggles and triumphs of everyday life, capturing
-              the essence of Punjabi culture and traditions. With a career spanning
-              over two decades, Babu Maan has released numerous hit albums and
-              singles that have garnered him a massive fan following both in India
-              and abroad.
+             The Authentication App is a secure web application built using React.js, designed to manage user sign-up, login, and authentication processes. It features functionalities like password validation, error handling, and session management to ensure a seamless and secure user experience.  <br /> <br /> React Router is used for navigation, while state management ensures efficient handling of user data. Developed as a self-learning project, it showcases expertise in implementing authentication workflows and enhancing application security.
             </p>
           );
         },
@@ -282,20 +269,14 @@ export const CloseIcon = () => {
       {
         description: "Soil detection involves analyzing and identifying the properties of soil.",
         title: "Soil detection",
-        src: WorkImg,
+        src: soil,
         ctaText: "View",
-        ctaLink: "https://ui.aceternity.com/templates",
+        ctaLink: "",
         content: () => {
           return (
             <p>
-              Led Zeppelin, a legendary British rock band, is renowned for their
-              innovative sound and profound impact on the music industry. Formed in
-              London in 1968, they have become a cultural icon in the rock music
-              world. <br /> <br /> Their songs often reflect a blend of blues, hard
-              rock, and folk music, capturing the essence of the 1970s rock era.
-              With a career spanning over a decade, Led Zeppelin has released
-              numerous hit albums and singles that have garnered them a massive fan
-              following both in the United Kingdom and abroad.
+              
+The Soil Detection Project is a Python-based application that leverages machine learning to classify soil types accurately. Using a trained ML model, the system analyzes soil properties to predict the most suitable category, assisting in agricultural decision-making.  <br /> <br /> The project employs libraries like Pandas, NumPy, and Scikit-learn for data processing, model building, and evaluation. Developed as a self-learning initiative, it highlights proficiency in applying machine learning techniques to solve real-world problems effectively.
             </p>
           );
         },
@@ -307,21 +288,14 @@ export const CloseIcon = () => {
     {
       description: "A seamless table reservation system ",
       title: "Table Reservation System",
-      src: realEstate,
+      src: table,
       ctaText: "View",
       ctaLink: "https://github.com/Omgawade46/Table_Reservation",
       content: () => {
         return (
           <p>
-            Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-            voice and profound lyrics that resonate deeply with his audience. Born
-            in the village of Khant Maanpur in Punjab, India, he has become a
-            cultural icon in the Punjabi music industry. <br /> <br />
-            His songs often reflect the struggles and triumphs of everyday life,
-            capturing the essence of Punjabi culture and traditions. With a career
-            spanning over two decades, Babu Maan has released numerous hit albums
-            and singles that have garnered him a massive fan following both in India
-            and abroad.
+        The Table Reservation application is a web-based platform designed to streamline the process of booking tables at restaurants. Built using HTML, CSS, and JavaScript for the front-end, and PHP with a database for the back-end, the project ensures a seamless user experience and efficient data management.   <br /> <br />
+         It allows users to view available tables, select their preferred time slots, and make reservations securely. This self-learning project helped in gaining practical experience in full-stack development and database integration.
           </p>
         );
       },
