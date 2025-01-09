@@ -15,7 +15,9 @@ const Home = () => {
   useEffect(() => {
     setColor(theme === "dark" ? "#000000" : "#E1D9D1");
   }, [theme]);
+   
 
+  
   return (
     <div name="home" className="w-full h-screen custom-gradient">
       {/* Container */}
@@ -36,19 +38,25 @@ const Home = () => {
             <SlightFlip className="text-4xl sm:text-6xl font-bold text-[#f8f3ea]" word="Om Gawade" />
             <WordPullUp className="text-4xl sm:text-6xl font-bold text-[#b4b4b6e3]" words="I’m a full-stack developer." />
             <p className="text-[#8b93ad] py-4 max-w-[700px]">
-              Specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on
-              building responsive full-stack web applications.
+            Dedicated to building high-quality digital experiences, I’m currently focused on crafting responsive full-stack web applications.
             </p>
+            
+
+            <a href='https://drive.google.com/file/d/1hRQTwPsNHexNzmifPHZY74Kr2ZVcteBd/view?usp=drivesdk'>
             <div>
-              <ShimmerButton className="shadow-2xl text-white group flex items-center hover:text-black">
+             
+              <ShimmerButton  className="shadow-2xl text-white group flex items-center hover:text-black">
                 <div className="text-white group flex items-center hover:text-black">
-                  View work
-                  <span className="group-hover:rotate-90 duration-200">
+                  Resume
+                  <span className="">
                     <HiArrowNarrowRight size={25} className="ml-3" />
                   </span>
+                  
                 </div>
               </ShimmerButton>
+             
             </div>
+            </a>
           </div>
         </div>
       </div>
