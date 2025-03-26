@@ -133,7 +133,7 @@ const Contact = () => {
                 <a href="mailto:omgawade2002@gmail.com" target="_blank" rel="noopener noreferrer">
                     <FaEnvelope size={30} className="hover:text-yellow-400 transition-all duration-300" />
                 </a>
-                <a href="https://drive.google.com/file/d/1hRQTwPsNHexNzmifPHZY74Kr2ZVcteBd/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/19ACcV_P_MFsADzA4AMM6isNObYfaZfky/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <FaFileAlt size={30} className="hover:text-yellow-400 transition-all duration-300" />
                 </a>
             </div>
